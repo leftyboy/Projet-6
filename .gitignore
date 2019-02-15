@@ -4,7 +4,7 @@ __pycache__
 cache
 *ipynb_checkpoints
 .git
-flask_app.py
+*flask_app.py
 Images
 templates
 *tmp.drivedownload
