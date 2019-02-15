@@ -1,0 +1,11 @@
+Other files
+__pycache__
+*git
+cache
+*ipynb_checkpoints
+.git
+flask_app.py
+Images
+templates
+*tmp.drivedownload
+
