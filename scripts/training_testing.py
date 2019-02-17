@@ -101,7 +101,7 @@ print("Traitement terminé !")
 # On convertit en pd.dataframe
 test_predictions_df = pd.DataFrame(np.array(test_predictions).T, columns=selected_tags)
 # threshold
-trusted_threshold = 0
+trusted_threshold = 0.157
 # Map threshold
 test_predictions_df_thresh = test_predictions_df.copy()
 test_predictions_df_thresh[test_predictions_df_thresh < trusted_threshold] = 0

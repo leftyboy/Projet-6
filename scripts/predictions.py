@@ -172,7 +172,7 @@ def prediction(csv_file):
         np.array(input_predictions).T, columns=y_test.columns
     )
     # threshold
-    trusted_threshold = 0.11
+    trusted_threshold = 0.157
     # Map threshold
     input_predictions_df_thresh = input_predictions_df.copy()
     input_predictions_df_thresh[input_predictions_df_thresh < trusted_threshold] = 0
