@@ -1,3 +1,3 @@
-pipeline
+Fichiers pipeline (format .pkl)
 
 
