@@ -7,8 +7,9 @@ L’objectif du projet que nous devons réaliser est de prédire les tags associés
 
 
 1. Notebooks
-"PROJET 6_Entrainement et Prédictions.ipynb"
-"PROJET 6_Exploration et Pipeline.ipynb"
+- "PROJET 6_Entrainement et Prédictions.ipynb"
+- "PROJET 6_Exploration et Pipeline.ipynb"
+
 
 2. Scripts python
 - Fichier pipeline.py
@@ -19,63 +20,67 @@ pour le training et la prédiction
 --> Fichier contenant les modules qui permettent l'exécution des autres scripts
 
 - Fichier training_testing.py 
---> à exécuter pour lancer un entrainement et un tester notre modèle
+--> à exécuter pour lancer un entrainement et tester notre modèle
 
 - Fichier predictions.py
 --> On teste notre modèle avec de nouvelles données utilisateur 
 
+
 3. Répertoires
-classifiers/logistical_regression
+- classifiers/logistical_regression
 --> Contient les classifieurs suivant modèle de régression logistique au format .pkl
 
-classifiers/naive_bayes
+- classifiers/naive_bayes
 --> Contient les classifieurs suivant modèle naive Bayes au format .pkl
 
-classifiers/random_forest
+- classifiers/random_forest
 --> Contient les classifieurs suivant modèle de Random Forest au format .pkl
 
-data
+- data
 --> Contient les données initiales au format .csv
 
-pipeline
+- pipeline
 --> Contient les élément nécessaire pour entrainer le modèle
 
-resources
+- resources
 --> Contient la liste des stopwords
 
-output
+- output
 --> Fichiers .csv en sortie
 
-scripts
-Scripts au format .py
+- scripts
+--> Scripts au format .py
 
-notebooks
-Emplacement de nos notebooks
+- notebooks
+--> Emplacement des notebooks
 
 
 4. Packages à installer
-pandas
-numpy
-scikit-learn
-nltk
-pyLDAvis
-mglearn
-seaborn
-matplotlib
-bs4 (beautifulsoup)
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- pyLDAvis
+- mglearn
+- seaborn
+- matplotlib
+- bs4 (beautifulsoup)
+
 
 5. Site (API)
-Disponible à l’adresse suivante :  http://leftyboy.pythonanywhere.com
+- Disponible à l’adresse suivante :  http://leftyboy.pythonanywhere.com
 
-6.lien vers projet Github
-https://github.com/leftyboy/Projet-6
+
+6. Lien vers projet Github
+ - https://github.com/leftyboy/Projet-6
+
 
 7. Procédure d'éxecution des scripts (se trouvant dans le répertoire "scripts")
-Exécuter le fichier pipeline.py tout d'abord pour créer le jeu de données/test pour l'entrainement.
+- Exécuter le fichier pipeline.py tout d'abord pour créer le jeu de données/test pour l'entrainement.
  
-Exécuter le fichier training_testing.py pour entrainer notre modèle
+- Exécuter le fichier training_testing.py pour entrainer notre modèle
 avec notre jeu d'entrainement et le tester avec notre jeu de test.
 
-Exécuter le fichier predictions.py avec comme argument le fichier "InputQuestions.csv"
+- Exécuter le fichier predictions.py avec comme argument le fichier "InputQuestions.csv"
 qui se trouve dans le répertoire "data". Il n'est pas nécessaire d'ajouter le lien
 complet pour accéder au fichier "InputQuestions.csv"
