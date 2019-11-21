@@ -1,46 +1,48 @@
-StackOverflow est un site de question-réponses liées au développement informatique.
-Pour poser une question sur ce site, il faut entrer plusieurs tags de manière à retrouver
+Projet rÃ©alisÃ© par Adil YADA
+
+StackOverflow est un site de question-rÃ©ponses liÃ©es au dÃ©veloppement informatique.
+Pour poser une question sur ce site, il faut entrer plusieurs tags de maniÃ¨re Ã  retrouver
 facilement la question par la suite.  
-L’objectif du projet que nous devons réaliser est de prédire les tags associés
-à une question posée par un utilisateur de la plateforme. 
+Lâ€™objectif du projet que nous devons rÃ©aliser est de prÃ©dire les tags associÃ©s
+Ã  une question posÃ©e par un utilisateur de la plateforme. 
 
 
 
 1. Notebooks
-- "PROJET 6_Entrainement et Prédictions.ipynb"
+- "PROJET 6_Entrainement et PrÃ©dictions.ipynb"
 - "PROJET 6_Exploration et Pipeline.ipynb"
 
 
 2. Scripts python
 - Fichier pipeline.py
---> à exécuter pour construire pipeline et fichiers de sauvegardes nécessaires
-pour le training et la prédiction
+--> Ã  exÃ©cuter pour construire pipeline et fichiers de sauvegardes nÃ©cessaires
+pour le training et la prÃ©diction
 
 - Fichier modules.py 
---> Fichier contenant les modules qui permettent l'exécution des autres scripts
+--> Fichier contenant les modules qui permettent l'exÃ©cution des autres scripts
 
 - Fichier training_testing.py 
---> à exécuter pour lancer un entrainement et tester notre modèle
+--> Ã  exÃ©cuter pour lancer un entrainement et tester notre modÃ¨le
 
 - Fichier predictions.py
---> On teste notre modèle avec de nouvelles données utilisateur 
+--> On teste notre modÃ¨le avec de nouvelles donnÃ©es utilisateur 
 
 
-3. Répertoires
+3. RÃ©pertoires
 - classifiers/logistical_regression
---> Contient les classifieurs suivant modèle de régression logistique au format .pkl
+--> Contient les classifieurs suivant modÃ¨le de rÃ©gression logistique au format .pkl
 
 - classifiers/naive_bayes
---> Contient les classifieurs suivant modèle naive Bayes au format .pkl
+--> Contient les classifieurs suivant modÃ¨le naive Bayes au format .pkl
 
 - classifiers/random_forest
---> Contient les classifieurs suivant modèle de Random Forest au format .pkl
+--> Contient les classifieurs suivant modÃ¨le de Random Forest au format .pkl
 
 - data
---> Contient les données initiales au format .csv
+--> Contient les donnÃ©es initiales au format .csv
 
 - pipeline
---> Contient les élément nécessaire pour entrainer le modèle
+--> Contient les Ã©lÃ©ment nÃ©cessaire pour entrainer le modÃ¨le
 
 - resources
 --> Contient la liste des stopwords
@@ -55,7 +57,7 @@ pour le training et la prédiction
 --> Emplacement des notebooks
 
 
-4. Packages à installer
+4. Packages Ã  installer
 - pandas
 - numpy
 - scikit-learn
@@ -68,19 +70,19 @@ pour le training et la prédiction
 
 
 5. Site (API)
-- Disponible à l’adresse suivante :  http://leftyboy.pythonanywhere.com
+- Disponible Ã  lâ€™adresse suivante :  http://leftyboy.pythonanywhere.com
 
 
 6. Lien vers projet Github
  - https://github.com/leftyboy/Projet-6
 
 
-7. Procédure d'éxecution des scripts (se trouvant dans le répertoire "scripts")
-- Exécuter le fichier pipeline.py tout d'abord pour créer le jeu de données/test pour l'entrainement.
+7. ProcÃ©dure d'Ã©xecution des scripts (se trouvant dans le rÃ©pertoire "scripts")
+- ExÃ©cuter le fichier pipeline.py tout d'abord pour crÃ©er le jeu de donnÃ©es/test pour l'entrainement.
  
-- Exécuter le fichier training_testing.py pour entrainer notre modèle
+- ExÃ©cuter le fichier training_testing.py pour entrainer notre modÃ¨le
 avec notre jeu d'entrainement et le tester avec notre jeu de test.
 
-- Exécuter le fichier predictions.py avec comme argument le fichier "InputQuestions.csv"
-qui se trouve dans le répertoire "data". Il n'est pas nécessaire d'ajouter le lien
-complet pour accéder au fichier "InputQuestions.csv"
+- ExÃ©cuter le fichier predictions.py avec comme argument le fichier "InputQuestions.csv"
+qui se trouve dans le rÃ©pertoire "data". Il n'est pas nÃ©cessaire d'ajouter le lien
+complet pour accÃ©der au fichier "InputQuestions.csv"
